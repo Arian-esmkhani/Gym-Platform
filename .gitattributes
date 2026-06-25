@@ -42,7 +42,7 @@ frontend/main/**/*.scss linguist-language=SCSS
 # ==========================================
 
 # TypeScript/HTML/CSS
-frontend/admin/**/*.ts linguist-language=TypeScript
+frontend/admin/**/*.ts linguist-language=Java
 frontend/admin/**/*.html linguist-language=HTML
 frontend/admin/**/*.css linguist-language=CSS
 frontend/admin/**/*.scss linguist-language=SCSS
