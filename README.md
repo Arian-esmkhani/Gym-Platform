@@ -10,7 +10,7 @@ A complete microservices-based platform for gym management, featuring user authe
 `docker-compose logs -f`
 
 ## Architecture Overview
-<img src="./batis.png" width="600" alt="Architecture">
+<img src="./batis.png" width="800" alt="Architecture">
 
 ## BackEnd Services Overview
 
@@ -49,7 +49,7 @@ A complete microservices-based platform for gym management, featuring user authe
 
 ### Run with Docker Compose
 
-# Run services (in separate terminals)
+### Run services (in separate terminals)
 java -jar api-gateway/target/*.jar --server.port=8080
 java -jar auth-service/target/*.jar --server.port=5001
 java -jar main-service/target/*.jar --server.port=5002

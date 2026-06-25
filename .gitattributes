@@ -37,10 +37,6 @@ frontend/main/**/*.jsx linguist-language=JavaScript
 frontend/main/**/*.css linguist-language=CSS
 frontend/main/**/*.scss linguist-language=SCSS
 
-# Next.js Config
-frontend/main/next.config.js linguist-language=JavaScript
-frontend/main/next.config.ts linguist-language=TypeScript
-
 # ==========================================
 # FRONTEND: Angular (Admin Panel)
 # ==========================================
@@ -50,9 +46,6 @@ frontend/admin/**/*.ts linguist-language=TypeScript
 frontend/admin/**/*.html linguist-language=HTML
 frontend/admin/**/*.css linguist-language=CSS
 frontend/admin/**/*.scss linguist-language=SCSS
-
-# Angular Config
-frontend/admin/angular.json linguist-language=JSON
 
 # ==========================================
 # DOCKER & INFRASTRUCTURE
@@ -66,45 +59,3 @@ Dockerfile linguist-language=Dockerfile
 # Docker Compose
 docker-compose.yml linguist-language=YAML
 docker-compose*.yml linguist-language=YAML
-
-# ==========================================
-# GENERAL CONFIGURATIONS
-# ==========================================
-
-# YAML/JSON/Properties
-*.yaml linguist-language=YAML
-*.yml linguist-language=YAML
-*.json linguist-language=JSON
-*.properties linguist-language=Properties
-
-# Shell
-*.sh linguist-language=Shell
-
-# Kotlin (if any)
-*.kt linguist-language=Java
-*.kts linguist-language=Java
-
-# ==========================================
-# GENERATED FILES (Hide from stats)
-# ==========================================
-
-# Java build
-**/target/** linguist-generated=true
-**/build/** linguist-generated=true
-
-# Node/Next.js
-**/node_modules/** linguist-vendored=true
-**/.next/** linguist-generated=true
-
-# Angular build
-**/dist/** linguist-generated=true
-**/out-tsc/** linguist-generated=true
-
-# ==========================================
-# VENDORED FILES (Don't count in stats)
-# ==========================================
-
-**/node_modules/** linguist-vendored=true
-**/target/** linguist-vendored=true
-**/dist/** linguist-vendored=true
-**/.next/** linguist-vendored=true
